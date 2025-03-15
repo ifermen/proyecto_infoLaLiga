@@ -1,0 +1,40 @@
+/*.table-container{
+    overflow-y: auto;
+}
+
+.tituloTabla{
+    position: sticky;
+    top:0;
+}*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Ocupa toda la pantalla */
+}
+
+/* Header fijo */
+.navbar {
+    margin-bottom: 20px;
+    flex: 0 0 auto; /* No cambia de tamaño */
+    height: 70px; /* Ajusta según necesidad */
+}
+
+ /* Contenedor principal con scroll */
+ main {
+    flex: 1 1 auto; /* Ocupa el resto de la pantalla */
+    overflow-y: auto; /* Permite scroll en el contenido sin afectar el header */
+}
+
+thead tr th {
+    position: sticky;
+    top: 2.4vh;
+    background-color: #fff; /* Asegura que el fondo no sea transparente */
+    z-index: 1000;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+}
+
+td>img{
+    margin-right: 5px;
+    width: 50px;
+}

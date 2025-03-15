@@ -6,9 +6,10 @@
     <title>InfoLaLiga</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="../style/bootstrap.min.css">
+    <link rel="stylesheet" href="../style/style.css">
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg bg-primary py-0 h-25" data-bs-theme="dark">
+<body class="pt-5">
+    <nav class="navbar navbar-expand-lg bg-primary py-0 fixed-top" data-bs-theme="dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html"><img src="../res/img/logoInfoLaLiga.png" alt="Logo de la web" class="img-fluid" style="width: 75px;"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,6 +41,314 @@
           </div>
         </div>
       </nav>
+      <main>
+        <div class="table-container mt-5">
+          <table class="table table-striped rounded-4 mt-5 w-50 mx-auto text-center">
+            <thead class="tituloTabla">
+              <tr class="table-dark rounded-4">
+                <th>#</th>
+                <th>Equipos</th>
+                <th>Partidos</th>
+                <th>Puntos</th>
+                <th>Victorias</th>
+                <th>Empates</th>
+                <th>Derrotas</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="table-info">
+                <th>1</th>
+                <td><img src="../res/img/equipos/Barcelona.svg" alt="Escudo del Barça">Barça</td>
+                <td>26</td>
+                <td>57</td>
+                <td>18</td>
+                <td>3</td>
+                <td>5</td>
+              </tr>
+              <tr class="table-info">
+                <th>2</th>
+                <td><img src="../res/img/equipos/real-madrid-logo-1.svg" alt="Escudo del Barça">Real Madrid</td>
+                <td>27</td>
+                <td>57</td>
+                <td>17</td>
+                <td>6</td>
+                <td>4</td>
+              </tr>
+              <tr class="table-info">
+                <th>3</th>
+                <td><img src="../res/img/equipos/atletico-madrid-logo-2022.svg" alt="Escudo del Barça">Atlético Madrid</td>
+                <td>27</td>
+                <td>56</td>
+                <td>16</td>
+                <td>8</td>
+                <td>3</td>
+              </tr>
+              <tr class="table-info">
+                <th>4</th>
+                <td><img src="../res/img/equipos/athletic-bilbao-logo.svg" alt="Escudo del Barça">Athletic</td>
+                <td>27</td>
+                <td>49</td>
+                <td>13</td>
+                <td>10</td>
+                <td>4</td>
+              </tr>
+              <tr class="table-warning">
+                <th>5</th>
+                <td><img src="../res/img/equipos/villarreal-cf-logo.svg" alt="Escudo del Barça">Villareal</td>
+                <td>26</td>
+                <td>44</td>
+                <td>12</td>
+                <td>8</td>
+                <td>6</td>
+              </tr>
+              <tr class="table-success table-link" onclick="window.location='equipos/betis.html'" target="_blank">
+                  <th>6</th>
+                  <td><img src="../res/img/equipos/betis-logo.svg" alt="Escudo del Barça">Betis</td>
+                  <td>27</td>
+                  <td>41</td>
+                  <td>11</td>
+                  <td>8</td>
+                  <td>8</td>
+                </tr>
+              <tr>
+                <th>7</th>
+                <td><img src="../res/img/equipos/mallorca-logo.svg" alt="Escudo del Barça">R.C.D Mallorca</td>
+                <td>27</td>
+                <td>37</td>
+                <td>10</td>
+                <td>7</td>
+                <td>10</td>
+              </tr>
+              <tr>
+                <th>8</th>
+                <td><img src="../res/img/equipos/rayo-vallecano-logo.svg" alt="Escudo del Barça">Rayo Vallecano</td>
+                <td>27</td>
+                <td>36</td>
+                <td>9</td>
+                <td>9</td>
+                <td>9</td>
+              </tr>
+              <tr>
+                <th>9</th>
+                <td><img src="../res/img/equipos/rc-celta-vigo.svg" alt="Escudo del Barça">Celta de Vigo</td>
+                <td>27</td>
+                <td>36</td>
+                <td>10</td>
+                <td>6</td>
+                <td>11</td>
+              </tr>
+              <tr>
+                <th>10</th>
+                <td><img src="../res/img/equipos/sevilla-fc-logo.svg" alt="Escudo del Barça">Sevilla</td>
+                <td>27</td>
+                <td>36</td>
+                <td>9</td>
+                <td>9</td>
+                <td>9</td>
+              </tr>
+              <tr>
+                <th>11</th>
+                <td><img src="../res/img/equipos/real-sociedad-logo.svg" alt="Escudo del Barça">Real Sociedad</td>
+                <td>27</td>
+                <td>34</td>
+                <td>10</td>
+                <td>4</td>
+                <td>13</td>
+              </tr>
+              <tr>
+                <th>12</th>
+                <td><img src="../res/img/equipos/getafe-fc-logo.svg" alt="Escudo del Barça">Getafe</td>
+                <td>27</td>
+                <td>33</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+              </tr>
+              <tr>
+                <th>13</th>
+                <td><img src="../res/img/equipos/girona-fc-logo.svg" alt="Escudo del Barça">Girona</td>
+                <td>27</td>
+                <td>33</td>
+                <td>9</td>
+                <td>6</td>
+                <td>12</td>
+              </tr>
+              <tr>
+                <th>14</th>
+                <td><img src="../res/img/equipos/osasuna-logo.svg" alt="Escudo del Barça">Osasuna</td>
+                <td>26</td>
+                <td>33</td>
+                <td>7</td>
+                <td>12</td>
+                <td>7</td>
+              </tr>
+              <tr>
+                <th>15</th>
+                <td><img src="../res/img/equipos/rcd-espanyol-logo.svg" alt="Escudo del Barça">RCD Espanyol</td>
+                <td>26</td>
+                <td>28</td>
+                <td>7</td>
+                <td>7</td>
+                <td>12</td>
+              </tr>
+              <tr>
+                <th>16</th>
+                <td><img src="../res/img/equipos/valencia-cf-logo-escudo.svg" alt="Escudo del Barça">Valencia C. F.</td>
+                <td>27</td>
+                <td>27</td>
+                <td>6</td>
+                <td>9</td>
+                <td>12</td>
+              </tr>
+              <tr class="border-danger-subtle">
+                <th>17</th>
+                <td><img src="../res/img/equipos/leganes.svg" alt="Escudo del Barça">Leganés</td>
+                <td>27</td>
+                <td>27</td>
+                <td>6</td>
+                <td>9</td>
+                <td>12</td>
+              </tr>
+              <tr class="table-danger">
+                <th>18</th>
+                <td><img src="../res/img/equipos/Deportivo_Alaves_logo_(2020).svg" alt="Escudo del Barça">Alavés</td>
+                <td>27</td>
+                <td>26</td>
+                <td>6</td>
+                <td>8</td>
+                <td>13</td>
+              </tr>
+              <tr class="table-danger">
+                <th>19</th>
+                <td><img src="../res/img/equipos/UD_Las_Palmas_logo.svg" alt="Escudo del Barça">U. D. Las Palmas</td>
+                <td>27</td>
+                <td>24</td>
+                <td>6</td>
+                <td>6</td>
+                <td>15</td>
+              </tr>
+              <tr class="table-danger">
+                <th>20</th>
+                <td><img src="../res/img/equipos/real-valladolid-logo-2023.svg" alt="Escudo del Barça">Valladolid</td>
+                <td>27</td>
+                <td>16</td>
+                <td>4</td>
+                <td>4</td>
+                <td>19</td>
+              </tr>
+            </tbody>       
+          </table>
+        </div>
+          <div class="container">
+            <h1 class="text-center">Proximos partidos</h1>
+            <h2 class="text-center">Jornada 28</h2>
+            <div class="row justify-content-center">
+              <div class="col-xl-4 col-lg-6 col-12">
+                <h3 class="text-center">14/03/2025</h3>
+                <ul class="list-group">
+                  <li class="list-group-item"><em>21:00</em> U. D. Las Palmas vs Alavés</li>
+                </ul>
+              </div>
+              <div class="col-xl-4 col-lg-6 col-12 mt-lg-0 mt-3">
+                <h3 class="text-center">15/03/2025</h3>
+                <ul class="list-group">
+                  <li class="list-group-item"><em>14:00</em> Valladolid vs Celta de Vigo</li>
+                  <li class="list-group-item"><em>16:15</em> R.C.D Mallorca vs R.C.D Espanyol</li>
+                  <li class="list-group-item"><em>18:30</em> Villarreal vs Real Madrid</li>
+                  <li class="list-group-item"><em>21:00</em> Girona vs Valencia C.F</li>
+                </ul>
+              </div>
+              <div class="col-xl-4 col-lg-6 col-12 mt-xl-0 mt-3">
+                <h3 class="text-center">16/03/2025</h3>
+                <ul class="list-group">
+                  <li class="list-group-item"><em>14:00</em> Leganés vs Betis</li>
+                  <li class="list-group-item"><em>16:15</em> Sevilla vs Athletic</li>
+                  <li class="list-group-item"><em>18:30</em> Osasuna vs Getafe</li>
+                  <li class="list-group-item"><em>18:30</em> Rayo Vallecano vs Real Sociedad</li>
+                  <li class="list-group-item"><em>21:00</em> Atlético de Madrid vs Barcelona</li>
+                </ul>
+              </div>
+            </div>
+            <hr class="hr">
+            <h2 class="text-center">Jornada 29</h2>
+            <div class="row justify-content-center">
+              <div class="col-xxl-3 col-xl-4 col-lg-6 col-12">
+                <h3 class="text-center">28/03/2025</h3>
+                <ul class="list-group">
+                  <li class="list-group-item"><em>21:00</em> Athletic vs Osasuna</li>
+                </ul>
+              </div>
+              <div class="col-xxl-3 col-xl-4 col-lg-6 col-12 mt-lg-0 mt-3">
+                <h3 class="text-center">29/03/2025</h3>
+                <ul class="list-group">
+                  <li class="list-group-item"><em>14:00</em> Real Sociedad vs Valladolid</li>
+                  <li class="list-group-item"><em>16:15</em> R.C.D Espanyol vs Atlético Madrid</li>
+                  <li class="list-group-item"><em>18:30</em> Alavés vs Rayo Vallecano</li>
+                  <li class="list-group-item"><em>21:00</em> Real Madrid vs Leganés</li>
+                </ul>
+              </div>
+              <div class="col-xxl-3 col-xl-4 col-lg-6 col-12 mt-xl-0 mt-3">
+                <h3 class="text-center">30/03/2025</h3>
+                <ul class="list-group">
+                  <li class="list-group-item"><em>14:00</em> Getafe vs Villarreal</li>
+                  <li class="list-group-item"><em>16:15</em> Barcelona vs Girona</li>
+                  <li class="list-group-item"><em>18:30</em> Valencia C.F vs R.C.D Mallorca</li>
+                  <li class="list-group-item"><em>21:00</em> Betis vs Sevilla</li>
+                </ul>
+              </div>
+              <div class="col-xxl-3 col-xl-4 col-lg-6 col-12 mt-xl-0 mt-3">
+                <h3 class="text-center">31/03/2025</h3>
+                <ul class="list-group">
+                  <li class="list-group-item"><em>21:00</em> Celta de Vigo vs U.D Las Palmas</li>
+                </ul>
+              </div>
+            </div>
+            <hr class="hr">
+            <h2 class="text-center">Jornada 30</h2>
+            <div class="row justify-content-center">
+              <div class="col-xxl-3 col-xl-4 col-lg-6 col-12">
+                <h3 class="text-center">04/04/2025</h3>
+                <ul class="list-group">
+                  <li class="list-group-item"><em>21:00</em> Rayo Vallecano vs R.C.D Espanyol</li>
+                </ul>
+              </div>
+              <div class="col-xxl-3 col-xl-4 col-lg-6 col-12 mt-lg-0 mt-3">
+                <h3 class="text-center">05/04/2025</h3>
+                <ul class="list-group">
+                  <li class="list-group-item"><em>14:00</em> Girona vs Alavés</li>
+                  <li class="list-group-item"><em>16:15</em> Real Madrid vs Valencia C.F</li>
+                  <li class="list-group-item"><em>18:30</em> R.C.D Mallorca vs Celta de Vigo</li>
+                  <li class="list-group-item"><em>21:00</em> Barcelona vs Betis</li>
+                </ul>
+              </div>
+              <div class="col-xxl-3 col-xl-4 col-lg-6 col-12 mt-xl-0 mt-3">
+                <h3 class="text-center">06/04/2025</h3>
+                <ul class="list-group">
+                  <li class="list-group-item"><em>14:00</em> U.D Las Palmas vs Real Sociedad</li>
+                  <li class="list-group-item"><em>16:15</em> Sevilla vs Atlético Madrid</li>
+                  <li class="list-group-item"><em>18:30</em> Valladolid vs Getafe</li>
+                  <li class="list-group-item"><em>21:00</em> Villarreal vs Athletic</li>
+                </ul>
+              </div>
+              <div class="col-xxl-3 col-xl-4 col-lg-6 col-12 mt-xl-0 mt-3">
+                <h3 class="text-center">07/04/2025</h3>
+                <ul class="list-group">
+                  <li class="list-group-item"><em>21:00</em> Leganés vs Osasuna</li>
+                </ul>
+              </div>
+            </div>
+            <hr class="hr">
+            <h2 class="text-center">Jornada 26</h2>
+            <div class="row justify-content-center">
+              <div class="col-xxl-3 col-xl-4 col-lg-6 col-12">
+                <h3 class="text-center">09/04/2025</h3>
+                <ul class="list-group">
+                  <li class="list-group-item"><em>Por definir</em> Villarreal vs R.C.D Espanyol</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+      </main>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
