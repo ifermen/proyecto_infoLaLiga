@@ -48,7 +48,21 @@
         </div>
       </nav>
       <main class="pb-3">
+        <nav class="navbar navbar-dark bg-dark mb-0 fixed-top rounded-3" style="width: fit-content;height: fit-content; margin-top: 4.5rem;">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </nav>
+        <div class="collapse fixed-top" id="navbarToggleExternalContent" data-bs-theme="dark" style="width: fit-content;height: fit-content; margin-top: 10.5rem;">
+          <div class="bg-dark p-4 rounded-2 pb-2">
+            <p><a href="#tablaPuntos" class="text-white text-decoration-none">Tabla de Puntos</a></p>
+            <p><a href="#proximosPartidos" class="text-white text-decoration-none">Proximos Partidos</a></p>
+          </div>
+        </div>
         <div class="table-container mt-5">
+          <h1 id="tablaPuntos" class="text-center">Tabla de Puntos</h1>
           <table class="table table-striped rounded-4 mt-5 w-50 mx-auto text-center">
             <thead class="tituloTabla">
               <tr class="table-dark rounded-4">
@@ -246,7 +260,7 @@
           </table>
         </div>
           <div class="container">
-            <h1 class="text-center">Proximos partidos</h1>
+            <h1 class="text-center" id="proximosPartidos">Proximos partidos</h1>
             <h2 class="text-center">Jornada 28</h2>
             <div class="row justify-content-center">
               <div class="col-xl-4 col-lg-6 col-12">
