@@ -78,22 +78,22 @@
                         </div>
                         <div class="card-body">
                           <p class="card-text">Introduce aqui alguna sugerencia que consideres. Y nosotros la escucharemos</p>
-                          <form>
+                          <form action="https://www.iesjacaranda.es/lmsgi/resultado.php" method="get">
                             <div class="form-floating mb-3">
-                                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                                <input type="email" class="form-control" id="email" placeholder="name@example.com" name="email">
                                 <label for="email">Email</label>
                             </div>
                             <div class="form-floating mb-3">
-                                <input type="text" class="form-control" id="asunto" placeholder="Asunto">
+                                <input type="text" class="form-control" id="asunto" placeholder="Asunto" name="asunto">
                                 <label for="asunto" class="form-label">Asunto</label>
                             </div>
                             <div class="form-floating mb-3">
                                 <textarea name="sugerencia" id="sugerencia" class="form-control" placeholder="Sugerencia" rows="5"></textarea>
                                 <label for="sugerencia" class="form-label">Sugerencia</label>
                             </div>
+                            <input type="submit" class="btn btn-primary mx-3 mb-3" value="enviar">
                           </form>
                         </div>
-                        <button type="submit" class="btn btn-primary mx-3 mb-3">Enviar</button>
                     </div>
                 </div>
             </div>
