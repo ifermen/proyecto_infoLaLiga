@@ -38,3 +38,10 @@ td>img{
     margin-right: 5px;
     width: 50px;
 }
+
+.fondo-index{
+    background-image: url('../res/img/fondo_estadio.jpeg');
+    background-repeat: no-repeat;
+    background-position:bottom;
+    background-attachment: fixed;
+}
